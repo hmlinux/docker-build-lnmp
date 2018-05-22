@@ -21,7 +21,7 @@ RUN cd /tmp/nginx-1.14.0 && \
     --with-http_sub_module \
     --with-http_perl_module \
     --with-stream \
-    --with-http_image_filter_module=dynamic \
+    --with-http_image_filter_module \
     --with-http_flv_module && \
     make -j 2 && \
     make install && \
